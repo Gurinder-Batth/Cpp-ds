@@ -49,3 +49,12 @@ int main()
      Node *root = createBinaryTree(preorder,inorder,0,6);
      inOrder(root);
 }
+
+//        1
+//     2      3
+//   4  5   6   7
+
+
+// Pre 1 , 2 , 4 , 5 , 3 , 6 , 7
+// In 4 , 2 , 5 , 1 , 6 , 3 , 7
+// Post 4 , 5 , 2 , 1 , 6 , 7 , 3
